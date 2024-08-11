@@ -1,0 +1,10 @@
+.container{
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+/* for name styles */
+.nameProp{
+    color: blueviolet;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+}

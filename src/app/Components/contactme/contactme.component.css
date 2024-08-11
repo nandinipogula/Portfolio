@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* class to define error */
+.error{
+    color: red;
+}
+/* text style */
+.text
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blueviolet;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+.form{
+    margin: 4vw 0vw;
+}

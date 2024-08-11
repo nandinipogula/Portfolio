@@ -1,0 +1,79 @@
+<div class="container">
+    <div class="text">About me</div>
+    <div class="row mb-5">
+        <div class="col-6">
+            <h4>Education</h4>
+        </div>
+        <div class="col-2">2022-2025</div>
+        <div class="col-4">
+            <div>
+                <span>B.Tech |&#160;</span>
+                <span>Computer Science and Engineering</span>
+            </div>
+            <div>VNR VJIET</div>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-6"></div>
+        <div class="col-2">2019-2022</div>
+        <div class="col-4">
+            <div>
+                <span>Diploma |&#160;</span>
+                <span>Computer Management Engineering</span>
+            </div>
+            <div>Government Polytechnic Masab Tank</div>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-6"></div>
+        <div class="col-2">2019</div>
+        <div class="col-4">
+            <div>
+                <span>SSC</span>
+            </div>
+            <div>Sri Goutham Grammar High School</div>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-6">
+            <h4>Skills & Expertise</h4>
+        </div>
+        <div class="col-6">
+            <div class="fw-bold">Programming Languages</div>
+            <div>
+                <ul class="list-inline">
+                    <div *ngFor="let item of programming">
+                        <li class="list-inline-item">{{ item }}</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="col-6"></div>
+        <div class="col-6">
+            <div class="fw-bold">Web Technologies</div>
+            <div>
+                <ul class="list-inline">
+                    <div *ngFor="let item of webTech">
+                        <li class="list-inline-item">{{item}}</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="col-6"></div>
+        <div class="col-6">
+            <div class="fw-bold">Software Tools and Technologies</div>
+            <div>
+                <ul class="list-inline">
+                    <div *ngFor="let item of Other">
+                        <li class="list-inline-item">{{ item }}</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

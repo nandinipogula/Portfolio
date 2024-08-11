@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="text">Projects</div>
+    <div class="row">
+       <div class="col-lg-4 col-sm-8 col-12" *ngFor="let object of projects">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title">{{ object.title }}</div>
+                    <div class="text-center">
+                        <img src="{{object.src}}" alt="loading.." class="img">
+                    </div>
+                    <div class="card-text text-dark">{{ object.description }}</div>
+                </div>
+            </div>
+       </div>
+    </div>
+</div>

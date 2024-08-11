@@ -1,0 +1,29 @@
+<div class="container">
+    <form (ngSubmit)="onSubmit(myForm)" #myForm="ngForm" class="form">
+        <!-- form heading -->
+        <div class="text">Contact me</div>
+        <!-- form description -->
+        <div><i>Please fill out form below to discuss any work oppotunites</i></div>
+        <!-- input field for entering name -->
+        <div class="mt-3">
+            <label for="uname">Your name</label>
+            <input type="text" class="form-control" id="uname" #name="ngModel" name="name" ngModel required>
+            <small class="error" *ngIf="name.invalid && name.touched">*enter your name</small>
+        </div>
+        <!-- input field for entering email -->
+        <div class="mt-3">
+            <label for="mail">Your email</label>
+            <input type="email" class="form-control" id="mail" #email="ngModel" name="mail" ngModel required email>
+            <small class="error" *ngIf="email.invalid && email.touched">*enter valid email</small>
+        </div>
+        <!-- textarea for entering message -->
+        <div class="mt-3">
+            <label for="about">Your message</label>
+            <textarea name="about" id="about" class="form-control" name="message" ngModel rows="5"></textarea>
+        </div>
+        <!-- form submit button -->
+        <div class="text-center">
+            <input type="submit" class="btn btn-success mt-3">
+        </div>
+    </form>
+</div>
